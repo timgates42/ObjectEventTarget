@@ -133,7 +133,7 @@
       pos = eventQueue.indexOf(callback);
     }
 
-    // Remove the propertie with array when the array is empty
+    // Remove the property with array when the array is empty
     if (eventQueue.length === 0){
       delete eventsMap[type];
     }
@@ -309,7 +309,7 @@
   ObjectEvent.prototype.AT_TARGET = 2;
   ObjectEvent.prototype.BUBBLING_PHASE = 3;
   ObjectEvent.prototype.initEvent = function() {
-    // Init event if it has some propertie wrong, fix it
+    // Init event if it has some property wrong, fix it
 
     // Time that the event has created
     this.timeStamp = this.timeStamp || Date.now();

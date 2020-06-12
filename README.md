@@ -110,7 +110,7 @@ The methods aren't enumerables, but only for modern-browsers and nodejs, if you 
 
 * **addEventListener( eventType, callback )**
 * **removeEventListener( eventType, callback )**
-* **dispatchEvent( event )** The event can be any object that has "type" propertie as string, recomends to use `new ObjectEvent('type name')`.
+* **dispatchEvent( event )** The event can be any object that has "type" property as string, recomends to use `new ObjectEvent('type name')`.
 
 Events
 ------
